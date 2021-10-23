@@ -1,10 +1,9 @@
-import "./App.css";
-import GoogleMap from "./component/GoogleMap";
+import ZipApplication from "./component/ZipApplication";
 
 function App() {
   return (
     <div className="App">
-      <GoogleMap />
+      <ZipApplication />
     </div>
   );
 }
