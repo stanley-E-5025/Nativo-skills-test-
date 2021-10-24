@@ -1,5 +1,5 @@
 .Home-container {
-  background: #fff;
+  background: rgb(255, 254, 254);
   height: 100vh;
   overflow-y: scroll;
   -ms-overflow-style: none; /* IE and Edge */
@@ -28,6 +28,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .Home-result-container {
@@ -65,9 +66,10 @@
 
   width: 85%;
   height: 40px;
-  margin-bottom: 20px;
+
   border-radius: 5px;
   padding-left: 15px;
+  border: 0.1px solid rgba(177, 177, 177, 0.616);
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
@@ -151,6 +153,12 @@
   margin-right: 10px;
 }
 
+.Home-list-right-info-match {
+  margin-right: 5px;
+  height: auto;
+  align-self: flex-end;
+}
+
 .Home-card-image-err {
   height: 200px;
   width: 200px;
@@ -164,7 +172,7 @@
 }
 
 .Home-card-txt-err {
-  font-size: 18px;
+  font-size: 15.5px;
   font-weight: 500;
   margin-left: 15px;
 }
@@ -177,4 +185,108 @@
 .Error-Icon {
   margin-left: 10px;
   font-size: 16px;
+}
+
+.Home-input-container {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.Home-auto-complete-container {
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  width: 85%;
+
+  height: 120px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: -70px;
+}
+
+.Home-auto-complete-option {
+  width: 100%;
+  display: flex;
+  padding-left: 10px;
+  height: 30px;
+  border: none;
+  background: rgb(255, 255, 255);
+  margin-top: 4px;
+  border-radius: 3px;
+  border-bottom: 0.1px solid rgba(165, 165, 165, 0.555);
+  font-weight: 500;
+  color: rgba(27, 27, 27, 0.795);
+}
+
+.Home-auto-complete-option:hover {
+  background: rgba(247, 247, 247, 0.795);
+}
+.Home-auto-complete-container::-webkit-scrollbar {
+  display: none;
+}
+
+.Home-card-image-err-match {
+  height: 100px;
+  width: 100px;
+}
+
+.Home-match-image-container {
+  align-self: flex-end;
+  margin-top: 10px;
+}
+.Home-card-match-container {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Home-card-match-container-Item {
+  width: 100%;
+  height: 45%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.Home-card-match-result {
+  font-weight: bold;
+}
+
+.H-I {
+  margin-left: 10px;
+  color: greenyellow;
+}
+@media (max-width: 500px) {
+  .Home-text-input {
+    border: 0.2px solid rgba(189, 189, 189, 0.767);
+    outline: none;
+
+    width: 100%;
+    height: 40px;
+
+    border-radius: 5px;
+    padding-left: 15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  }
+
+  .Home-card-txt-err {
+    font-size: 13.5px;
+    font-weight: 500;
+    margin-left: 15px;
+  }
+
+  .Home-auto-complete-option {
+    font-size: 13.5px;
+  }
 }
