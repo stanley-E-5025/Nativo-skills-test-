@@ -7,8 +7,10 @@ export default function ZipList() {
     <>
       {data.map((data) => (
         <div key={Math.random()} className="Home-list-item">
-          <div className="Home-list-left-info">
+          <div className="Home-list-left-info  ">
             <div className="Home-list-left-title">
+              {" "}
+              <i className="fas fa-map-marker-alt Zip-custom-I"></i>
               {data.departamento} , {data.municipio}
             </div>
 

@@ -1,5 +1,6 @@
 .Home-container {
-  background: rgb(255, 254, 254);
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
   overflow-y: scroll;
   -ms-overflow-style: none; /* IE and Edge */
@@ -41,8 +42,8 @@
   font-weight: bold;
 }
 .Home-top-bar-title {
-  color: rgb(143, 143, 143);
-  font-size: 21px;
+  color: rgb(17, 17, 17);
+  font-size: 24px;
   font-weight: bold;
   margin-left: 10px;
 }
@@ -88,6 +89,7 @@
   margin-top: 10px;
   height: calc(100% - 10px);
   width: 100%;
+  background: rgb(249, 249, 249);
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
     rgba(0, 0, 0, 0.05) 0px 5px 10px;
@@ -114,6 +116,7 @@
   color: rgba(39, 39, 39, 0.925);
   box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
   width: 100%;
+  background: #fff;
 }
 
 .Home-card-scroll-container {
@@ -141,6 +144,7 @@
   justify-content: space-between;
 
   align-items: center;
+  background: #fff;
 }
 
 .Home-list-left-info {
@@ -221,6 +225,23 @@
   color: rgba(27, 27, 27, 0.795);
 }
 
+.Home-auto-complete-option-err {
+  width: 100%;
+  display: flex;
+  padding-left: 10px;
+  height: 30px;
+  border: none;
+  background: rgb(255, 255, 255);
+  margin-top: 4px;
+  border-radius: 3px;
+  border-bottom: 0.1px solid rgba(165, 165, 165, 0.555);
+  font-weight: 500;
+  color: rgba(192, 0, 0, 0.795);
+}
+
+.Home-auto-complete-option-err:hover {
+  background: rgba(247, 247, 247, 0.795);
+}
 .Home-auto-complete-option:hover {
   background: rgba(247, 247, 247, 0.795);
 }
@@ -253,7 +274,7 @@
   padding: 10px;
   display: flex;
   justify-content: space-between;
-
+  background: #fff;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
@@ -265,6 +286,11 @@
 .H-I {
   margin-left: 10px;
   color: greenyellow;
+}
+
+.Zip-custom-I {
+  font-size: 13px;
+  margin-right: 4px;
 }
 @media (max-width: 500px) {
   .Home-text-input {
