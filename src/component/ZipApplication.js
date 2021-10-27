@@ -32,7 +32,7 @@ export default function ZipApplication() {
           setData(localData);
         }
       });
-  }, []);
+  }, [data.code, localData]);
 
   return (
     <div className="  container-fluid   Home-container ">
