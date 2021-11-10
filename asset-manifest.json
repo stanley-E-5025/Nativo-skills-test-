@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/Nativo-skills-test-/static/css/main.2c6d7aec.chunk.css",
-    "main.js": "/Nativo-skills-test-/static/js/main.0f1643e8.chunk.js",
-    "main.js.map": "/Nativo-skills-test-/static/js/main.0f1643e8.chunk.js.map",
+    "main.js": "/Nativo-skills-test-/static/js/main.33fb3e33.chunk.js",
+    "main.js.map": "/Nativo-skills-test-/static/js/main.33fb3e33.chunk.js.map",
     "runtime-main.js": "/Nativo-skills-test-/static/js/runtime-main.ea183c1f.js",
     "runtime-main.js.map": "/Nativo-skills-test-/static/js/runtime-main.ea183c1f.js.map",
-    "static/js/2.cdd0b007.chunk.js": "/Nativo-skills-test-/static/js/2.cdd0b007.chunk.js",
-    "static/js/2.cdd0b007.chunk.js.map": "/Nativo-skills-test-/static/js/2.cdd0b007.chunk.js.map",
+    "static/js/2.bbbc279a.chunk.js": "/Nativo-skills-test-/static/js/2.bbbc279a.chunk.js",
+    "static/js/2.bbbc279a.chunk.js.map": "/Nativo-skills-test-/static/js/2.bbbc279a.chunk.js.map",
     "index.html": "/Nativo-skills-test-/index.html",
     "static/css/main.2c6d7aec.chunk.css.map": "/Nativo-skills-test-/static/css/main.2c6d7aec.chunk.css.map",
-    "static/js/2.cdd0b007.chunk.js.LICENSE.txt": "/Nativo-skills-test-/static/js/2.cdd0b007.chunk.js.LICENSE.txt"
+    "static/js/2.bbbc279a.chunk.js.LICENSE.txt": "/Nativo-skills-test-/static/js/2.bbbc279a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ea183c1f.js",
-    "static/js/2.cdd0b007.chunk.js",
+    "static/js/2.bbbc279a.chunk.js",
     "static/css/main.2c6d7aec.chunk.css",
-    "static/js/main.0f1643e8.chunk.js"
+    "static/js/main.33fb3e33.chunk.js"
   ]
 }
