@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "../css/App.css";
 import ZipList from "./ZipList";
-import local from "../data/ZipCodes";
+import data from "../data/ZipCodes";
 import ZipError from "./ZipError";
-import axios from "axios";
 
 export default function ZipApplication() {
   const [value, setValue] = useState("");
@@ -12,9 +11,6 @@ export default function ZipApplication() {
     status: "",
   });
 
-  const [data, setData] = useState([]);
-
-  const localData = local;
   const match =
     data.filter(function (e) {
       if (e.code === value) return true;
@@ -23,16 +19,7 @@ export default function ZipApplication() {
 
   useEffect(() => {
     setResultState({ status: "start" });
-
-    axios
-      .get("https://manadevapi.test123.dev/v1/neighborhoods/code")
-      .then((res) => {
-        setData(res.data);
-        if (data.code === undefined) {
-          setData(localData);
-        }
-      });
-  }, [data.code, localData]);
+  }, [data.code]);
 
   return (
     <div className="  container-fluid   Home-container ">
